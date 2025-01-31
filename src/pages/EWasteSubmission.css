@@ -1,0 +1,25 @@
+/*EWasteSubmission.css*/
+
+.ewaste-submission-container {
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: center; /* Center the header */
+    align-items: center; /* Aligns items vertically */
+  }
+  
+  .search-bar {
+    padding: 8px;
+    margin-left: 20px; /* Space between heading and search bar */
+    width: 200px; /* Set a width for the search bar */
+    position: absolute; /* Allow search bar to be positioned freely */
+    left: 20px; /* Align to the left */
+  }
+  
+  .ewaste-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

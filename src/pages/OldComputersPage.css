@@ -1,0 +1,101 @@
+.old-computers-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .old-computers-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .ewaste-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .form-group select {
+    appearance: none;
+    background-color: white;
+  }
+  
+  .form-group label[for="isWorking"],
+  .form-group label[for="accessories"] {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .form-group label[for="accessories"] {
+    display: block;
+  }
+  
+  .form-group input[type="tel"] {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 600px) {
+    .old-computers-page {
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

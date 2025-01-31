@@ -1,0 +1,21 @@
+.benefits-section {
+    padding: 50px;
+    background-color: #e0f7fa;
+    text-align: center;
+  }
+  
+  .benefits-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-section li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  

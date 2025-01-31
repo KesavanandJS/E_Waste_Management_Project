@@ -1,0 +1,52 @@
+  
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if cards exceed available space */
+    gap: 20px; /* Adds spacing between the cards */
+    justify-content: center; /* Centers the cards inside the container */
+  }
+  
+  .bid-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px; /* Keeps the width of each card consistent */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bid-card:hover {
+    transform: scale(1.03); /* Adds a slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhances hover shadow */
+  }
+  
+  .bid-card h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .bid-card p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .bid-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bid-card button:hover {
+    background-color: #0056b3;
+  }
+  

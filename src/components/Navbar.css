@@ -1,0 +1,67 @@
+.navbar {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #28a745;
+    transform: scale(1.1);
+  }
+  
+  .login-button {
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #28a745;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #e1f5d9; /* Light green on hover */
+  }
+  
+  .quote-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .quote-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

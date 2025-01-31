@@ -1,0 +1,84 @@
+.dashboard-container {
+    padding: 20px;
+    position: relative;
+  }
+  
+  .hamburger-menu {
+    position: absolute; /* Position it relative to the dashboard container */
+    top: 0;
+    left: 0;
+    font-size: 48px; /* Increased icon size */
+    cursor: pointer;
+    color: #333; /* Icon color */
+    z-index: 1001; /* Ensure it stays above other elements */
+  }
+  
+  .sidebar {
+    position: absolute; /* Position relative to the dashboard container */
+    top: 60px; /* Set distance below the hamburger menu */
+    left: 0; /* Align with the hamburger menu */
+    width: 250px; /* Sidebar width */
+    background-color: #f8f8f8; /* Background color */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    padding: 20px;
+    z-index: 1000; /* Ensure it sits above other elements */
+    transition: all 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+    cursor: pointer; /* Pointer cursor for clickable items */
+  }
+  
+  /* Optional: Add hover effect for sidebar items */
+  .sidebar li:hover {
+    text-decoration: underline; /* Underline effect on hover */
+  }
+  .dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hamburger-menu {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    background-color: #f4f4f4;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .dashboard-image-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,34 @@
+/* EWasteCard.css */
+
+.ewaste-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .ewaste-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .ewaste-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .ewaste-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .highlight {
+    background-color: #cce5ff; /* Light blue background for highlighted card */
+    border-color: #007bff; /* Blue border for highlighted card */
+  }
+  
+  .highlight:hover {
+    background-color: #b8e0f8; /* Slightly darker blue on hover */
+  }
+  
